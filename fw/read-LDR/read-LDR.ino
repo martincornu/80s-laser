@@ -16,7 +16,7 @@ An emergency button also allows the EM to be deactivated manually.
 
 #define LED_INT_PIN         13        // internal led pin
 #define LDR_PIN             A0        // pin where we connected the LDR and the resistor
-#define LDR_LASER_THR       400       // below this threshold means laser is in contact
+#define LDR_LASER_THR       450       // below this threshold means laser is in contact
 #define LDR_LASER_THR_MS    2000      // time in ms to stay below the threshold to consider laser is in contact
 #define EM_PIN              2         // electromagnet pin
 #define BTN_EMERGENCY_PIN   3         // emergency button pin
